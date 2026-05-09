@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #08101f, #0b1020);
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+}
+
+.logo span {
+  color: cyan;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero span {
+  color: cyan;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.primary {
+  background: cyan;
+  color: black;
+}
+
+.secondary {
+  border: 1px solid white;
+  color: white;
+}
+
+/* SECTIONS */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* PROJECT */
+.project-card {
+  background: rgba(255,255,255,0.08);
+  margin: 10px auto;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}
